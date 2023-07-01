@@ -1,0 +1,10 @@
+
+.bg-primary ,.btn-primary {
+    --bs-bg-opacity: 1;
+    background-color:#e6cc9f!important;
+    border-color: antiquewhite;
+}
+.form-control{
+
+    background-color: #f9f2e7;
+}

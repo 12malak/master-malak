@@ -1,0 +1,29 @@
+.Search2{
+    background-origin: border-box;
+  
+    background: url(./wheat.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+    background-position:center;
+   
+   background-attachment: fixed;
+  
+height: 32rem;
+}
+
+input[type="file"] {
+    display: none;
+  }
+  .custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #e6cc9f;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .HomChef{
+    overflow-x: hidden;
+  }

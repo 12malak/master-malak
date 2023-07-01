@@ -1,0 +1,125 @@
+/********** Template CSS **********/
+:root {
+    --primary:#e6cc9f;
+    --secondary: #354F8E;
+    --light: #EFF5F9;
+    --dark: #1D2A4D;
+}
+.Navbar{
+    height: 120px;
+}
+
+.btn {
+    font-weight: 700;
+    transition: .5s;
+}
+
+.btn:hover {
+    -webkit-box-shadow: 0 8px 6px -6px #555555;
+    -moz-box-shadow: 0 8px 6px -6px #555555;
+    box-shadow: 0 8px 6px -6px #555555;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+}
+
+.btn-square {
+    width: 36px;
+    height: 36px;
+}
+
+.btn-sm-square {
+    width: 28px;
+    height: 28px;
+}
+
+/* .btn-lg-square {
+    width: 46px;
+    height: 46px;
+} */
+.img-Logo3{
+height:70px;
+width: 100px;
+
+
+}
+.btn-square,
+.btn-sm-square {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+.btn-lg-square {
+    width: 63px;
+    height: 63px;
+    color: #050404;
+}
+.social {
+    color:#968e8e;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  
+  .social:hover {
+    color: #080808;
+   
+  }
+  
+  .btn-lg-square:hover {
+    width: 63px;
+    height: 63px;
+   
+}
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 30px;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+    z-index: 99;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    margin-left: 40px;
+    padding: 40px 0;
+    font-size:22px;
+    font-weight: 700;
+    color:#717273;
+    outline: none;
+    transition: .5s;
+   height: 32px; 
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+@media (min-width: 992px) {
+    .navbar-light .navbar-nav .nav-link::before {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 5px;
+        bottom: 0;
+        left: 50%;
+        background: var(--primary);
+        transition: .5s;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover::before,
+    .navbar-light .navbar-nav .nav-link.active::before {
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link  {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+}
